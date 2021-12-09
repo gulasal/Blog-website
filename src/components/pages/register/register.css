@@ -1,0 +1,49 @@
+.register{
+    height: calc(100vw - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: 
+    url("https://image.freepik.com/free-photo/top-view-colorful-pencils-with-copybook-blue-wall-book-copybook-school-science-color_140725-65715.jpg");
+    background-size: cover;
+    align-items: center;
+}
+.registerTitle{
+    font-size: 50px;
+}
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.registerForm > label{
+    margin: 10px 0;
+}
+.registerInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+.registerButton{
+     margin-top: 20px;
+     cursor: pointer;
+     background-color: turquoise;
+     border: none;
+     color: white;
+     border-radius: 5px ;
+     padding: 10px;
+}
+.registerLoginButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: lightcoral;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+
+}
